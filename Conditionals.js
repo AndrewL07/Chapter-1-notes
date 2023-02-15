@@ -25,8 +25,8 @@ if (num2==10){
 console.log("end of program");
 
 let secret= 70;
-if (secret % 7 ==0){
-    console.log("divisivle by 7");
+if (secret % 7 == 0){
+    console.log("divisible by 7");
 }
 if (secret >10){
     console.log("greater than 10");

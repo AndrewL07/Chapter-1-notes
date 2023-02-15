@@ -1,12 +1,12 @@
-const readline= require('readline-sync');
+const readLine= require('readline-sync');
 
-let answer = readline.question("What day is it?\nYour answer: ");
+let answer = readLine.question("What day is it?\nYour answer: ");
 console.log(answer);
 
-let username= readline.question("Enter username ");
-let password= readline.question("Enter Password ");
+let username= readLine.question("Enter username ");
+let password= readLine.question("Enter Password ");
 if(password == "abc"){
-    console.log('Welcome ${username}');
+    console.log(`Welcome ${username}`);
 } else {
     console.log("invalid");
 }
@@ -18,10 +18,10 @@ let discount = (diff/originalPrice).toFixed(2);
 console.log(`discount: ${discount}`);
 
 //Exponents
-let base = Number(readline.question("Enter the base: "));
-let esp = Number(readline.question("Entter the exponent: "));
-let answer2 = base ** exp
-console.log('${base} to the power of ${exp} = ${answer2}');
+let base = Number(readLine.question("Enter the base: "));
+let exp = Number(readLine.question("Enter the exponent: "));
+let answer2 = base ** exp;
+console.log(`${base} to the power of ${exp} = ${answer2}`);
 
 //Rounding
 console.log(5.7);
