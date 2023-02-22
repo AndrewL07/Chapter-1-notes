@@ -49,13 +49,13 @@ const readline= require('readline-sync');
 //     a += 3;
 // }
 
-//8
-let b = 0;
-while (b<999) {
-    console.log(b;
-    b += 5;
-}
-
+// //8
+// let b = 0;
+// while (b<999) {
+//     console.log(b;
+//     b += 5;
+// }
+//
 
 //9
 let start = 0;
